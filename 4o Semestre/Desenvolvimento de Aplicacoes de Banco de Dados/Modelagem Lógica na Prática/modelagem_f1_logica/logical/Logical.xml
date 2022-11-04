@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D3020EB7-62DB-E101-78DC-3ACF14390639" mainViewID="324A206A-6EAD-330D-CC64-B78EDB3CE576">
-<createdBy>Pedro Verner</createdBy>
-<createdTime>2022-11-04 12:29:01 UTC</createdTime>
-<ownerDesignName>modelagem_f1_logica</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

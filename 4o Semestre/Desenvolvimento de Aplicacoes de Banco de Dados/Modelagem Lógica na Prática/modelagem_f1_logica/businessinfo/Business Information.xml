@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="57C32D66-E269-E413-FC5C-59F8BBCAE9E7">
-<createdBy>Pedro Verner</createdBy>
-<createdTime>2022-11-04 12:29:01 UTC</createdTime>
-<ownerDesignName>modelagem_f1_logica</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
