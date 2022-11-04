@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagem_f1_logica" id="81769A6B-65A7-0429-BB48-F506F296F20C" version="3.5">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:29:01 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>81769A6B-65A7-0429-BB48-F506F296F20C</designId>
+</OSDM_Design>
