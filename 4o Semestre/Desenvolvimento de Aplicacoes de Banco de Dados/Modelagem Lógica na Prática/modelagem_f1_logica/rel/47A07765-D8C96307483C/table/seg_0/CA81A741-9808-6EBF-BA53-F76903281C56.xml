@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA81A741-9808-6EBF-BA53-F76903281C56" name="campeonato">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:06:17 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_campeonato" id="5E6DB7C9-79E4-2ACE-DBCC-E54D023BE808">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:06:42 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="6E53118E-D8D4-AB8A-F974-E687CBBB3D37">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:06:56 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78E56EFF-8AB5-2B9C-B122-751D05BE77EA" name="campeonato_PK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:06:42 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E6DB7C9-79E4-2ACE-DBCC-E54D023BE808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

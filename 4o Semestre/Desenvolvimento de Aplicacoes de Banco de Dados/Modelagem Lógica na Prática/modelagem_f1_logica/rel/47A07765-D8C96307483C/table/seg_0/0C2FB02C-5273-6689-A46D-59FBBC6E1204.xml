@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C2FB02C-5273-6689-A46D-59FBBC6E1204" name="perfil">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:33:33 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_perfil" id="879D2116-B0C5-3908-A53E-52573AAD8A3C">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:34:25 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="BC1632F4-CD29-F95A-6A08-34A9F34B8E29">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:37:13 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="icone" id="D6E93430-7636-B606-D24D-94371E0E86B4">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:37:54 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipe_id_equipe" id="4056D57F-A45D-6F06-DC42-AEB3082C1D70">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:41:14 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2E74DEC-837B-707D-52DD-0630626DC0ED" referredColumn="96728118-4B24-B7B5-22BE-75B6805A16E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0349CB1E-D77D-075B-85F8-662B0E5ADAB1" name="perfil_PK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:34:25 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="879D2116-B0C5-3908-A53E-52573AAD8A3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A33A4C5-C71B-769E-AEC3-BB3B714D5DC4" name="perfil_equipe_FK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:41:14 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4056D57F-A45D-6F06-DC42-AEB3082C1D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

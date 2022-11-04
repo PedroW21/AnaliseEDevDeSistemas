@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D009587-4254-8F6D-371B-D63F0E53FC45" name="relacao_pista_campeonato">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:13:32 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rel_campeonato_pista" id="C42BCD46-BB19-1A98-7ECB-03BE4BA0697E">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:13:57 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pista_id_pista" id="DD3A7A78-0F82-6A4A-4B38-A2E0C8B52246">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:14:59 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E50C8C3F-D215-EEE5-2F3D-F319067E83F9" referredColumn="34DA62B7-3D06-A4A3-D390-B0F1538C78B1"/>
+</associations>
+</Column>
+<Column name="campeonato_id_campeonato" id="9A1A8F00-E74C-1B4F-11C6-5C46AF9BA4AB">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:21:45 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67310674-404F-6E34-7008-0D46A6993287" referredColumn="5E6DB7C9-79E4-2ACE-DBCC-E54D023BE808"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0CB2AD0-9688-317D-6FAE-8FF2A9FEDD7E" name="relacao_pista_campeonato_PK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:13:57 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C42BCD46-BB19-1A98-7ECB-03BE4BA0697E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8ED6C05-F0FF-B189-13D3-89AB17734AE3" name="relacao_pista_campeonato_pista_FK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:14:59 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD3A7A78-0F82-6A4A-4B38-A2E0C8B52246"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40DFF807-7127-D295-8084-7AF3F2702EFF" name="relacao_pista_campeonato_campeonato_FK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:21:45 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A1A8F00-E74C-1B4F-11C6-5C46AF9BA4AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

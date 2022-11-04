@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E32B35B-465F-F9B3-CCB9-0F0FBC7EEFAD" name="piloto">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:43:28 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_piloto" id="45F0AEC1-3A13-E771-A8B8-A33EA6BF352E">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:45:46 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="E4155118-5EB4-ED54-A6EB-AEB2266A8151">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:46:14 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idade" id="21616B0B-06A1-A901-EFC8-80D894AD4B57">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:47:09 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="A9C52A1B-9818-C56C-7204-255E9D802343">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:47:23 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagem" id="DF9D0324-515B-B851-16BF-7E79F475CE56">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:47:36 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transmissao_carro" id="1AEE114D-DFAE-6C18-A721-520EAF51945C">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:58:31 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagem_carro" id="88CB8515-43A6-1325-DEC0-2E107FDC71C0">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:58:48 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_pneu" id="36D38541-B21E-1E70-EFF1-6B11BF74FF82">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:59:05 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipe_id_equipe" id="9AE83B49-7A78-D712-1356-08CB790866AE">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:48:27 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FB06CDF-12AE-B4BC-C0F2-80864C06DDC6" referredColumn="96728118-4B24-B7B5-22BE-75B6805A16E7"/>
+</associations>
+</Column>
+<Column name="pais_id_pais" id="8C336C30-521B-5C56-682A-FE1617571957">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:53:36 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17EACB26-A356-178F-C189-CA01A94DDFF4" referredColumn="26CBFF22-39B9-0489-0D96-436D436FCEBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51B474E3-C8D3-7C9B-EC2C-CC6CE023FD08" name="piloto_PK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:02:39 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45F0AEC1-3A13-E771-A8B8-A33EA6BF352E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5A1BC42-5FCB-A7CD-9EBD-E42B1C2BD3BB" name="piloto_equipe_FK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:48:27 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AE83B49-7A78-D712-1356-08CB790866AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBBF49A4-B924-77CE-6CFF-6D33E26DCD5D" name="piloto_pais_FK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 12:53:36 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C336C30-521B-5C56-682A-FE1617571957"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
