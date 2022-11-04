@@ -30,6 +30,8 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="703" y="190" width="221" height="235"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVImage" oid="43A7FEB1-6D44-B82A-21E2-1F717C2A16C5" otype="Image" imageFileName="
+</>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="52C6C5BA-13A1-2FB0-9FB4-A99C23C82DF2" otype="Table" vid="995B5DE5-FF29-AE95-786A-62256E8A4DAF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="434" y="214" width="170" height="129"/>

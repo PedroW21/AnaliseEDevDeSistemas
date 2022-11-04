@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBF72509-AA26-6348-5449-C382060D1B9D" name="participacao_perfil_campeonato">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:07:36 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="campeonato_id_campeonato" id="1CEDB032-34B1-60F5-AECD-B6FCBF3836EF">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:08:10 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FFCC05B-1F4A-7480-2AE0-5127AE3D1231" referredColumn="5E6DB7C9-79E4-2ACE-DBCC-E54D023BE808"/>
+</associations>
+</Column>
+<Column name="perfil_id_perfil" id="7DA99744-D551-753D-46CE-7DAB89FEE6FF">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:08:15 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43E97B9C-9209-C4F1-EDDE-63981680F44C" referredColumn="879D2116-B0C5-3908-A53E-52573AAD8A3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1BE8874-D11E-651B-5F9C-F97918B209AD" name="participacao_perfil_campeonato_campeonato_FK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:08:10 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CEDB032-34B1-60F5-AECD-B6FCBF3836EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="743B4BD6-6996-9D49-4DC4-086BBD823B57" name="participacao_perfil_campeonato_perfil_FK">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-04 13:08:15 UTC</createdTime>
+<ownerDesignName>modelagem_f1_logica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DA99744-D551-753D-46CE-7DAB89FEE6FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
