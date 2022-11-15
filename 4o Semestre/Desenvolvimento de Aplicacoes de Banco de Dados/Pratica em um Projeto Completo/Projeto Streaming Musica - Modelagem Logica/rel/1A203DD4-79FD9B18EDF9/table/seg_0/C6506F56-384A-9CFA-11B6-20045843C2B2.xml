@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6506F56-384A-9CFA-11B6-20045843C2B2" name="estilo">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-15 13:59:13 UTC</createdTime>
+<ownerDesignName>Projeto Streaming Musica - Modelagem Logica</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstilo" id="0BD4EF7A-8E19-6778-356A-A4B42636DD46">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-15 13:59:50 UTC</createdTime>
+<ownerDesignName>Projeto Streaming Musica - Modelagem Logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="74772EA9-1E8D-C3CF-C2DF-378663ED9596">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-15 14:00:09 UTC</createdTime>
+<ownerDesignName>Projeto Streaming Musica - Modelagem Logica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

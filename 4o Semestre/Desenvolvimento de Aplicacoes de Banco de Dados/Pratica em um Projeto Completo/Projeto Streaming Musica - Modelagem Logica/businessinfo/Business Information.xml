@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="6B420223-209F-B4D5-EAAA-6BA3EB8DD381">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-15 13:56:11 UTC</createdTime>
+<ownerDesignName>Projeto Streaming Musica - Modelagem Logica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

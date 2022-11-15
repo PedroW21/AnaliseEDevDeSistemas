@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3E90A79F-8588-E804-3CC0-07A4898F4CBE" mainViewID="8E7365CC-3734-7BC4-ADA0-2DAD194070C1">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-15 13:56:11 UTC</createdTime>
+<ownerDesignName>Projeto Streaming Musica - Modelagem Logica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

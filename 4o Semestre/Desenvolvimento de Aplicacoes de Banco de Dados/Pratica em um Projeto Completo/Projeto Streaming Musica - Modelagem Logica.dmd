@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto Streaming Musica - Modelagem Logica" id="1A71AD94-D559-135B-8613-FB4774F8DB76" version="3.5">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-15 13:56:11 UTC</createdTime>
+<ownerDesignName>Projeto Streaming Musica - Modelagem Logica</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1A71AD94-D559-135B-8613-FB4774F8DB76</designId>
+</OSDM_Design>

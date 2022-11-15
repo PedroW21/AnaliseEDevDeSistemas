@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="5B9FD7D1-E4A7-F6DE-D35C-B75140227808">
+<createdBy>Pedro Verner</createdBy>
+<createdTime>2022-11-15 13:56:11 UTC</createdTime>
+<ownerDesignName>Projeto Streaming Musica - Modelagem Logica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
