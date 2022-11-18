@@ -1,0 +1,3 @@
+# Modelo de Domínio
+
+DISCORD
