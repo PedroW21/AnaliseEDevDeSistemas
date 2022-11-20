@@ -1,0 +1,8 @@
+INSERT INTO rel_lista_musica (musica_idMusica, lista_reproducao_idListaReproducao, ordem_musica)
+VALUES (
+        (SELECT idMusica FROM musica WHERE titulo = 'Amerika'),
+        (SELECT idListaReproducao FROM lista_reproducao WHERE nome_lista = 'Jazz Maneiraço'),
+        3 --ordem da musica (colocar futuramente auto increment)
+);
+
+SELECT * FROM rel_lista_musica;
