@@ -72,7 +72,7 @@ public interface CategoriaRepository extends JpaRepository<Categoria, Int> {
 
 # Service
 
-- Codigos q//ue regem as regras de negócio da aplicação (verificação, validação, calculos etc...);
+- Codigos que regem as regras de negócio da aplicação (verificação, validação, calculos etc...);
 
 - Na camada Service temos a comunicação/intermediação entre a camada Controller e a camada Repository;
 
